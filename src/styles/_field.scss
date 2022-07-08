@@ -1,0 +1,49 @@
+.field {
+  header {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+
+    h3 {
+      margin-right: 5px;
+      font-size: 16px;
+      
+      span {
+        font-weight: 400;
+        margin-right: 4px;
+      }
+    }
+  }
+
+  .cells {
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+    grid-gap: 5px;
+  }
+}
+
+.cell {
+  user-select: none;
+  width: 45px;
+  height: 45px;
+
+  border: 1px solid rgba(169, 169, 169, 0.681);
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .4s;
+
+  &__selected {
+    border: none;
+    background-color: orange;
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+}

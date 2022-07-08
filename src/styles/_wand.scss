@@ -1,0 +1,9 @@
+$border-width: 1px;
+
+.wand {
+  transition: .4s;
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
