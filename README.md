@@ -7,6 +7,9 @@ Player won if 4 or more numbers in the first field coincide with random ones or 
 Result of one attempt sends to a server. 
 Button 'Wand' generates randomly selected numbers. 
 
+If server is unavailable the game tries again twice with 2 seconds interval.
+If response is still not ok then error messages appears.
+
 # How to install
 - Clone or download repository
 - Run 'install_and_run.bat' file or open terminal and enter 'npm i'
