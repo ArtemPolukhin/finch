@@ -14,5 +14,5 @@ If response is still not ok then error messages appears.
 - Clone or download repository
 - Run 'install_and_run.bat' file or open terminal and enter 'npm i'
 
-# start
+# Run
 - Open 'start.bat' file or open terminal and enter 'npm start'
